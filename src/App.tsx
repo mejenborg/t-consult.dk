@@ -49,7 +49,7 @@ function App() {
   return (
     <CssVarsProvider defaultMode="light" theme={theme}>
       <CssBaseline />
-      <BrowserRouter>
+      <BrowserRouter basename={"/t-consult.dk"}>
         <Routes>
           <Route path="/" element={<Layout menuItems={menuItems} />}>
             {menuItems.map((menuItem, i) => (
