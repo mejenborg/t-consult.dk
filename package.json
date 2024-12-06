@@ -1,6 +1,7 @@
 {
   "name": "t-consult.dk",
-  "private": true,
+  "private": false,
+  "homepage": "https://mejenborg.github.io/t-consult.dk/",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
